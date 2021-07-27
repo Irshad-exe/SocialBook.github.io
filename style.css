@@ -26,10 +26,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background:var(--nav-color);
+  background-color:var(--nav-color);
   padding: 5px 5%;
   position: sticky;
   top: 0;
+  background-size: cover;
   z-index: 100;
 }
 .logo {
@@ -440,4 +441,93 @@ footer{
 #themetoggle.\.themetoggle-on{
   padding-left: 23px;
   background: #302d2d;
+}
+@media  screen and  (min-width:320px) and (max-width: 480px){
+  .nav{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+  .searchbar{
+    width: 50px;
+    padding: 0 1px;
+  }
+  .searchbar input{
+    width: 50px;
+    padding: 1px;
+    font-size: 10px;
+    margin: 0 5px;
+
+  }
+  .searchbar img{
+    width: 13px;
+  }
+  .logo{
+    width: 50px;
+  }
+  .Left-nav ul li img{
+    width: 20px;
+    margin: 0 10px;
+  }
+  .Left-nav ul li{
+    width: 10px;
+    display: flex;
+  }
+  .usericon img{
+    width: 30px;
+  }
+  .online::after{
+    width: 7px;
+    height: 7px;
+  }
+  .left-bar{
+    flex-basis: 30%;
+    position: sticky;
+    top: 0px;
+  }
+  .main-content{
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
+    margin-left: -370px;
+    flex-basis: 70%;
+  }
+  .right-bar{
+    width: 30%;
+    display: none;
+  }
+  .imp-links a{
+    display: flex;
+    font-size: 5px;
+    margin: 0;
+  }
+  .imp-links img{
+    width: 15px;
+    margin: 0px 20px;
+    margin-right: 5px;
+  }
+  .imp-links{
+    display: flex;
+  }
+  .imp-links a:last-child{
+    display: none;
+  }
+  .story-gallery{
+    margin-bottom: 10px;
+  }
+  .story p{
+     font-size: 5px;
+  }
+  .add-post-links img{
+    width: 16px;
+    margin-left: -70px;
+  }
+  .add-post-links a{
+    display: flex;
+    font-size: 10px;
+    margin: 35px;
+  }
+  .shortcut-links{
+    display: none;
+  }
 }
