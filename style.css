@@ -26,11 +26,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:var(--nav-color);
+  background:var(--nav-color);
   padding: 5px 5%;
   position: sticky;
   top: 0;
-  background-size: cover;
   z-index: 100;
 }
 .logo {
@@ -441,6 +440,7 @@ footer{
 #themetoggle.\.themetoggle-on{
   padding-left: 23px;
   background: #302d2d;
+<<<<<<< HEAD
 }
 @media  screen and  (min-width:320px) and (max-width: 480px){
   .nav{
@@ -530,4 +530,6 @@ footer{
   .shortcut-links{
     display: none;
   }
+=======
+>>>>>>> parent of b50d1f6 (Resp Update)
 }
